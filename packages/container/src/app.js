@@ -11,7 +11,6 @@ const MarketingLazy = lazy(() => import('./components/MarketingApp'));
 const AuthLazy = lazy(() => import('./components/AuthApp'));
 const DashboardLazy = lazy(() => import('./components/DashboardApp'));
 
-
 const generateClassName = createGenerateClassName({
   productionPrefix: 'co',
 });
